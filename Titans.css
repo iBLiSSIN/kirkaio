@@ -68,22 +68,34 @@ body {
   display: none !important;
 }
 
-
-/*  REMOVE BORDERS  */
-.tab,
-.card-cont,
-.container-card,
+/*  BG GONE */
+.add-friends,
+.moneys > div,
 #auth-user > div,
 #left-icons > div > div,
 #left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.clans,
+#view > div > div > div.content > div > div.avatar,
+#app > div.loading-scene > div.background-cont > div.background,
+#view > div > div > div.content > div > div.avatar > div.bottom,
+#view > div > div > div.content > div > div > div.preview.text-2,
 #view > div > div > div.content > div > div.content > div.subjects,
-#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#app > div.game-interface > div.esc-interface > div.right-container,
+#view > div > div > div.content > div > div > div.preview.text-2 > div,
 #view > div > div > div.content > div > div.add-friends.text-2 > div.input,
-#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
-#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
-#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
-  border: none !important;
+#view > div > div > div.content > div > div.add-friends.text-2 > div.head-text,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.hp > div,
+#app > div.game-interface > div.desktop-game-interface > div.state > div.cont-endurance,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.left > div,
+#app > div.game-interface > div.desktop-game-interface > div.state-cont > div.kill-death > div,
+#app > div.end-modal > div.content > div.right-cont-content > div.next-round.text-2 > div.level,
+#app > div.end-modal > div.content > div.chat > div.chat.chat-position > div.messages.messages-cont,
+#app > div.game-interface > div.desktop-game-interface > div.chat.chat-position > div.messages.messages-cont,
+#view > div > div > div.content > div > div > div.chat-cont > div.chat.chat > div.messages.messages-cont.small {
+  background: none !important;
 }
+
+
 
 /*  TRANSPARENT BLUR    */
 #view > div,
