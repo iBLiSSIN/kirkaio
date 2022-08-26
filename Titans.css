@@ -95,7 +95,21 @@ body {
   background: none !important;
 }
 
-
+/*  REMOVE BORDERS  */
+.tab,
+.card-cont,
+.container-card,
+#auth-user > div,
+#left-icons > div > div,
+#left-icons > div.icon-btn.text-1,
+#view > div > div > div.content > div > div.content > div.subjects,
+#view > div > div > div.content > div > div.content > div.tabs.text-2,
+#view > div > div > div.content > div > div.add-friends.text-2 > div.input,
+#view > div > div > div.content > div > div.content > div.tabs.text-2 > div.limit,
+#view > div > div > div.content > div > div.clans > div.my-clan > div.list-container > div.list > div.item,
+#view > div > div > div.content > div > div.clans > div.champions-container > div.awards-cont > div.cards > div > div.card-list > div {
+  border: none !important;
+}
 
 /*  TRANSPARENT BLUR    */
 #view > div,
